@@ -9,18 +9,11 @@
     <link rel="stylesheet" href=" <?php echo constant('URL'); ?>assets/css/style.css">
 </head>
 <body>
-<div class="container">
-
-    <header>
-        <div id="header">
-        <ul>
-            <li><a href="<?php echo constant('URL'); ?>home">Home</a></li>
-            <li><a href="<?php echo constant('URL'); ?>categories">Categories</a></li>
-        </ul>
-        </div>
-    </header>
-
-
-</div>
+<header>
+<nav class="nav bg-Darker container justify-content-end">
+  <a class="nav-link active white" href="<?php echo constant('URL'); ?>home">Clientes</a>
+  <a class="nav-link white" href="<?php echo constant('URL'); ?>categories">Nuevo</a>
+</nav>
+</header>
 </body>
 </html>
