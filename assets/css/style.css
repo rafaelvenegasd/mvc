@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.square{
+    background-color: white;
+    border: thistle;
+    margin: 10px;
+    padding: 10px;
+    /* width: 70%; */
+}
+
+.card{
+    max-width: 80%!important;
+
+}
+
+.card-header, .card-body{
+    height: 30px;
+    margin: 0;
+    padding: 2px;
+}
+
+.card-body{
+    height: 30px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(223, 207, 207);
+}
+
+#header{
+    background-color: black;
+    padding: 10px;
+}
+
+#header ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+#header ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#logo:hover{
+    color: rgb(236, 232, 232);
+}
+.bg-Dark{
+    background-color: #1c2331;
+}
+
+.bg-Darker{
+    background-color: #161c27;
+}
+
+.bg-light{
+    background-color: rgb(195, 195, 195);
+}
+
+.social a{
+    padding: 15px;
+}
+
+.center{
+    text-align-last: center;
+    text-align: -webkit-center;
+}
+
+.white{
+    color: white;
+}
+
+.border{
+    border: #161c27;
+}
+
+.space{
+    line-height: 2.5rem;
+}
+
+.rectangle{
+    border: #313744 solid 1px;
+    padding: 10px;
+}
+
+.display{
+    float: left;
+    width: 80%;
+}
+
+aside{
+    float: right;
+    width: 20%;
+}
+
+audio{
+    width: 220px;
+}
+
+.card{
+    max-width: 250px;
+}
+
+iframe{
+    max-width: 100%;
+}
+
+label{
+    color: rgb(56, 54, 141);
+    font-weight: bolder;
+}
+
+#limit, #explicit, #country{
+    max-width: fit-content;
+}
+
+li{
+    list-style: square;
+}
+
+.little{
+    width: 30px;
+    height: 20px;
+    font-size: 80%;
+    padding: 2px;
+}
