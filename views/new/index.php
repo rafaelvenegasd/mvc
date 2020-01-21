@@ -32,7 +32,7 @@
     </select>
   </div>
   <div class="form-group text-center">
-    <input class="btn btn-primary mt-4" type="submit" name='create' value="Create Customer">
+    <input class="btn btn-primary mt-4" type="submit" name='create' value="Registrar Cliente">
   </div>
 </form>
 </div>
