@@ -10,10 +10,16 @@
 </head>
 <body>
 <header>
-<nav class="nav bg-Darker container justify-content-end">
-  <a class="nav-link active white" href="<?php echo constant('URL'); ?>home">Clientes</a>
-  <a class="nav-link white" href="<?php echo constant('URL'); ?>categories">Nuevo</a>
-</nav>
+<!-- <nav class="nav   "> -->
+<ul class="nav nav-pills bg-Darker container justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link white" href="<?php echo constant('URL'); ?>home">Clientes</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active white" href="<?php echo constant('URL'); ?>categories">Nuevo</a>
+  </li>
+</ul>
+  <!-- </nav> -->
 </header>
 </body>
 </html>
