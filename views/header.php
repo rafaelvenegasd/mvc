@@ -16,7 +16,7 @@
     <a class="nav-link white" href="<?php echo constant('URL'); ?>home">Clientes</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active white" href="<?php echo constant('URL'); ?>categories">Nuevo</a>
+    <a class="nav-link active white" href="<?php echo constant('URL'); ?>newCustomer">Nuevo</a>
   </li>
 </ul>
   <!-- </nav> -->
